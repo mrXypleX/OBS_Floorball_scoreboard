@@ -239,14 +239,27 @@ def UpdateScore():
         obs.obs_source_release(source)
         
 def tid_plus(a):
-    global tid
+    global p_tid
+    global penelty
     if a == True:
-        tid +=1
+        p_tid +=1
+        for x in Range(penelty)
+            if penelty[x] > 0
+                penelty[x] -=1
+        
+    if a == False:
+        update()
     
 def tid_minus(a):
-    global tid
+    global p_tid
+    global penelty
     if a == True:
-        tid -=1
+        p_tid -=1
+        for x in Range(penelty)
+            if penelty[x] > 0
+                penelty[x] +=1
+    if a == False:
+        update()
     
 def period_plus(a):
     global Period
